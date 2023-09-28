@@ -16,6 +16,8 @@ Below is a list of some common commands in Magento 2.4, ordered roughly from mos
 
 ## 2. Development and Debugging
 
+- `php bin/magento deploy:mode:set developer` - Switch to developer mode
+- `php bin/magento deploy:mode:show` - Check the change to development mode
 - `bin/magento dev:source-theme:deploy` - Deploys static files for a theme in development.
 - `bin/magento dev:tests:run` - Runs tests.
 - `bin/magento dev:query-log:enable` - Enables database query logging.

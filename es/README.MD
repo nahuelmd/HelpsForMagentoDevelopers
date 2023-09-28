@@ -18,6 +18,8 @@ A continuación se presenta una lista de algunos de los comandos más comunes en
 
 ## 2. Desarrollo y Depuración
 
+- `php bin/magento deploy:mode:set developer` - Cambia al modo de desarrollador
+- `php bin/magento deploy:mode:show` - Comprobar el cambio a modo de desarrollo
 - `bin/magento dev:source-theme:deploy` - Despliega archivos estáticos para un tema en desarrollo.
 - `bin/magento dev:tests:run` - Ejecuta pruebas.
 - `bin/magento dev:query-log:enable` - Habilita el log de consultas de la base de datos.
