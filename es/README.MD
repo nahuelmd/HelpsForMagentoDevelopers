@@ -8,6 +8,7 @@ A continuación se presenta una lista de algunos de los comandos más comunes en
 
 - `bin/magento setup:upgrade` - Actualiza la base de datos y el esquema del sistema.
 - `bin/magento setup:di:compile` - Compila el código de Magento.
+- `php -d memory_limit=1024M bin/magento setup:di:compile` - Compila el código de Magento definiendo el limite de memoria de php
 - `bin/magento setup:static-content:deploy` - Despliega contenido estático.
 - `bin/magento cache:clean` - Limpia la caché.
 - `bin/magento cache:flush` - Vacia la caché.

@@ -6,6 +6,7 @@ Below is a list of some common commands in Magento 2.4, ordered roughly from mos
 
 - `bin/magento setup:upgrade` - Updates the database and system schema.
 - `bin/magento setup:di:compile` - Compiles Magento code.
+- `php -d memory_limit=1024M bin/magento setup:di:compile` - Compile the Magento code by defining the php memory limit
 - `bin/magento setup:static-content:deploy` - Deploys static content.
 - `bin/magento cache:clean` - Cleans the cache.
 - `bin/magento cache:flush` - Flushes the cache.
