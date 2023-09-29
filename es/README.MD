@@ -12,6 +12,7 @@ A continuación se presenta una lista de algunos de los comandos más comunes en
 - `bin/magento setup:static-content:deploy` - Despliega contenido estático.
 - `bin/magento cache:clean` - Limpia la caché.
 - `bin/magento cache:flush` - Vacia la caché.
+- `rm -rf pub/static/* var/view_preprocessed/*` - Eliminar los archivos estáticos generados.
 - `bin/magento indexer:reindex` - Reindexa todos los indexadores.
 - `bin/magento maintenance:enable` - Habilita el modo de mantenimiento.
 - `bin/magento maintenance:disable` - Deshabilita el modo de mantenimiento.
@@ -20,6 +21,7 @@ A continuación se presenta una lista de algunos de los comandos más comunes en
 
 - `php bin/magento deploy:mode:set developer` - Cambia al modo de desarrollador
 - `php bin/magento deploy:mode:show` - Comprobar el cambio a modo de desarrollo
+- `php bin/magento dev:template-hints:enable` - Habilitar las sugerencias de plantilla (template hints)
 - `bin/magento dev:source-theme:deploy` - Despliega archivos estáticos para un tema en desarrollo.
 - `bin/magento dev:tests:run` - Ejecuta pruebas.
 - `bin/magento dev:query-log:enable` - Habilita el log de consultas de la base de datos.
