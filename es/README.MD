@@ -4,6 +4,12 @@
 
 A continuación se presenta una lista de algunos de los comandos más comunes en Magento 2.4, ordenados aproximadamente desde los más utilizados hasta los menos utilizados. Esta lista no es exhaustiva y la frecuencia de uso puede variar según el proyecto y el equipo de desarrollo.
 
+## 0. Mas Usados
+- `rm -rf generated/*`
+- `rm -rf pub/static/* var/view_preprocessed/*` 
+- `php -d memory_limit=1024M bin/magento setup:di:compile`
+- `bin/magento cache:clean` - Limpia la caché.
+
 ## 1. Configuración y Mantenimiento
 
 - `bin/magento setup:upgrade` - Actualiza la base de datos y el esquema del sistema.
