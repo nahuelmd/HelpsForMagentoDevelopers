@@ -10,6 +10,9 @@ A continuación se presenta una lista de algunos de los comandos más comunes en
 - `php -d memory_limit=1024M bin/magento setup:di:compile`
 - `bin/magento cache:clean` - Limpia la caché.
 
+## 0.1 Dev Tool
+- `php bin/dev.php` "Inicia el proceso de limpieza y compilación.
+
 ## 1. Configuración y Mantenimiento
 
 - `bin/magento setup:upgrade` - Actualiza la base de datos y el esquema del sistema.
